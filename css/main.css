@@ -1,3 +1,13 @@
 @import url(./fonts.css);
 @import url(./root.css);
 @import url(./common.css);
+
+@import url(./components/header.css);
+@import url(./components/intro.css);
+
+.intro {
+    background: url(../img/intro/intro_bg.png) no-repeat center center / cover;
+    @media (width < 992px) {
+        background: url(../img/intro/intro_bg-sm.png) no-repeat right center / cover;
+    }
+}
